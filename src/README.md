@@ -39,40 +39,29 @@ Foram aplicadas interfaces como Comparable e Comparator para demonstrar diferent
 
 ---
 
-Como Executar
-Abra o projeto no VSCode ou outra IDE Java
-Compile os arquivos .java
-Execute a classe Main
-🔍 Detalhes das Ordenações
-🔹 Ordenação por Nota
-Implementada na própria classe Aluno
-Utiliza a interface Comparable
-Ordena em ordem decrescente (maior nota primeiro)
-🔹 Ordenação por Nome
-Implementada na classe ComparatorNome
-Ignora diferenças entre letras maiúsculas e minúsculas
-🔹 Ordenação por Idade
-Implementada na classe ComparatorIdade
-Em caso de empate, ordena pelo nome
-📊 Dados de Teste
+## Como Executar
+- Abra o projeto no VSCode ou outra IDE Java
+- Compile os arquivos .java
+- Execute a classe Main
 
-Foram inseridos automaticamente mais de 10 alunos com:
+---
 
-Idades repetidas (para testar desempate)
-Nomes com variações (maiúsculas/minúsculas)
-Notas variadas
-🚀 Diferenciais do Projeto
-Código organizado e bem estruturado
-Uso de validação no construtor (nota entre 0 e 10)
-Métodos adicionais como:
-getSituacao()
-getClassificacao()
-Estatísticas da turma (média e aprovação)
-Comentários explicativos no código
-👩‍💻 Autor(a)
+## Detalhes das Ordenações
 
-Projeto desenvolvido para fins acadêmicos.
+### Ordenação por Nota
+- Implementada na própria classe Aluno
+- Utiliza a interface Comparable
+- Ordena em ordem decrescente (maior nota primeiro)
 
-📌 Observação
+### Ordenação por Nome
+- Implementada na classe ComparatorNome
+- Ignora diferenças entre letras maiúsculas e minúsculas
+  
+### Ordenação por Idade
+- Implementada na classe ComparatorIdade
+- Em caso de empate, ordena pelo nome
 
+---
+
+## Observação
 Este projeto tem como foco o aprendizado e aplicação prática de conceitos de Java, especialmente no uso de ordenação de objetos.
